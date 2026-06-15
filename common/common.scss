@@ -110,6 +110,12 @@ a {
   }
 }
 
+.category-list thead th.topics,
+.category-list td.topics,
+.category-box .stat-count {
+  display: none;
+}
+
 .category-list-item.category {
   border-radius: var(--mint-border-radius);
   border-right: 1px solid var(--primary-low) !important;
